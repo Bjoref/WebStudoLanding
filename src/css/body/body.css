@@ -1,0 +1,9 @@
+@import url(./__background/body__background.css);
+
+body {
+    background-color: var(--brand-light-shades);
+}
+
+body * {
+    z-index: 2;
+}

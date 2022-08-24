@@ -1,0 +1,7 @@
+.header__container {
+    display: flex;
+    max-height: 100px;
+    justify-content: center;
+    background: var(--brand-color);
+    background: linear-gradient(to top left, var(--brand-dark-shades) 0%, var(--brand-light-accent) 100%);
+}

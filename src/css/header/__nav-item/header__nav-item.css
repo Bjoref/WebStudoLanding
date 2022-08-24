@@ -1,0 +1,9 @@
+
+.header__nav-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.header__nav-item:not(:last-child) {
+    margin-right: 16px;
+}

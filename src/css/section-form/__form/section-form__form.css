@@ -1,0 +1,4 @@
+.section-form__form {
+    flex-direction: column;
+    align-items: center;
+}

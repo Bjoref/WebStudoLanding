@@ -1,0 +1,63 @@
+.link-hover {
+    outline: 1px solid var(--brand-light-accent) !important;
+    color: var(--brand-light-accent) !important;
+    outline-offset: 8px !important;
+    border-radius: 100px !important;
+}
+
+.selector-button-hover {
+    color: var(--brand-light-accent) !important;
+}
+
+.header__nav-link,
+.header__nav-button {
+    background-image: linear-gradient(
+      to right,
+      var(--brand-light-accent),
+      var(--brand-light-accent) 50%,
+      #fff 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .header__nav-link:before,
+  .header__nav-button::before {
+    content: '';
+    background: var(--brand-light-accent);
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+  }
+
+  .header__nav-link:hover,
+  .header__nav-button:hover {
+    background-position: 0;
+   }
+
+   .header__nav-link:hover::before,
+   .header__nav-button:hover::before {
+    width: 100%;
+  }
+
+  .header__nav-link,
+  .header__nav-button {
+    background-image: linear-gradient(
+      to right,
+      var(--brand-light-accent),
+      var(--brand-light-accent) 50%,
+      #fff 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }

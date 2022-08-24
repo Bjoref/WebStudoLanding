@@ -1,0 +1,3 @@
+.section-employees__container {
+    background: linear-gradient(to top left, var(--brand-dark-shades) 0%, var(--brand-light-accent) 100%);
+}

@@ -1,0 +1,9 @@
+.header__nav-button {
+    border: none;
+    background-color: transparent;
+    color: var(--white-color);
+}
+
+.header__nav-button:hover {
+    color: var(--brand-light-accent);
+}

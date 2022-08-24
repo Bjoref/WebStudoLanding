@@ -1,0 +1,5 @@
+.section-form__content {
+    min-width: 600px;
+    padding: 32px 150px;
+    background-color: var(--black-color);
+}

@@ -1,0 +1,11 @@
+.section-form__input {
+    padding-left: 16px;
+    border-radius: 100px;
+    height: 32px;
+    border: 1px solid var(--brand-light-accent);
+    background: transparent;
+}
+
+.section-form__input:focus-visible {
+    outline: 1px solid var(--brand-dark-accent);
+}

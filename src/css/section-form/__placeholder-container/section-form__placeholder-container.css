@@ -1,0 +1,5 @@
+.section-form__placeholder-container {
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}

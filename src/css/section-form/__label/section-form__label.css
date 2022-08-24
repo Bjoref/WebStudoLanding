@@ -1,0 +1,9 @@
+.section-form__label {
+    position: absolute;
+    z-index: 3;
+    left: 16px;
+    top: 11%;
+    pointer-events: none;
+    background-color: var(--black-color);
+    color: var(--brand-color);
+}

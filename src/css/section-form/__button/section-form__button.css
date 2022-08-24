@@ -1,0 +1,16 @@
+.section-form__button {
+    background-color: var(--brand-color);
+}
+
+.section-form__button:hover {
+    color: var(--brand-color);
+    outline: 2px solid var(--brand-color);
+}
+
+.section-form__button:before {
+	background: var(--brand-dark-shades);
+}
+
+.section-form__button:hover:before {
+    outline: 2px solid var(--brand-color);
+}

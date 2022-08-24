@@ -1,0 +1,6 @@
+.section-social__content {
+    z-index: 1;
+    position: relative;
+    padding: 15px;
+    height: 150px;
+}

@@ -1,0 +1,16 @@
+@import url(./_fonts/style_values_fonts.css);
+@import url(./_displays/style_values_displays.css);
+@import url(./_btn/style_values_btn.css);
+@import url(./_hover/section_values_hover.css);
+@import url(./_margins/style_values_margins.css);
+
+.container {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: var(--white-color);
+}
+    

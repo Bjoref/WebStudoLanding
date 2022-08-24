@@ -1,0 +1,25 @@
+/* 4.5rem */
+.text-xxxl {
+    font-size: var(--font-size_xxxl) !important; 
+}
+
+/* 3rem */
+.text-xxl {
+    font-size: var(--font-size_xxl) !important; 
+}
+
+
+/* 1.5rem */
+.text-l {
+    font-size: var(--font-size_l) !important; 
+}
+
+/* 1.2rem */
+.text-m {
+    font-size: var(--font-size_m) !important;
+}
+
+/* 1rem */
+.text-s {
+    font-size: var(--font-size_s) !important;
+}

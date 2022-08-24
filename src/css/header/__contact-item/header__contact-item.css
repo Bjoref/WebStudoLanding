@@ -1,0 +1,7 @@
+.header__contact-item {
+    display: flex;
+}
+
+.header__contact-item:not(:last-child) {
+    margin-bottom: 16px;
+}
